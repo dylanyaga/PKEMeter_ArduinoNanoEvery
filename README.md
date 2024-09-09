@@ -3,8 +3,8 @@
 * I have included a basic wiring diagram for this project. The wiring diagram does not show any LED replacements/changes, but for those the wiring is simple, just wire positive side of the LED to the corresponding Pin, and negative side to the ground rail.
 * I have also not included how to wire up the battery to the charge board, as that is self evident - red wire to positive terminal, black wire to negative terminal.
 * I have also not included how to wire up the charge board to the Arduino; for this you should connect the 5V out negative terminal to the Arduino ground, and connect the 5V out positive terminal to the PKE Meter switch, and then the switch on to the Arduino VIN pin. 
-* The DFPlayer mini can be connected directly to a speaker via the SPK_1 and SPK_2 pins; or to an amplifier board via the DAC_R and DAC_L pins. An amplifier board will also need to get power from the Arduino's 3.3V out and GND.
-
+* The DFPlayer Mini can be connected directly to a speaker via the SPK_1 and SPK_2 pins; or to an amplifier board via the DAC_R and DAC_L pins. An amplifier board will also need to get power from the Arduino's 3.3V out and GND.
+* The DFPlyaer Mini has a quirky relationship to the SD Card Contents. It doesn't care what the file name is, instead it cares about the order the files are placed on the SD Card; so place the included files onto the SD Card in numerical order.
 ## Materials List
 * [Arduino Nano Every](https://www.amazon.com/Arduino-Nano-Every-Single-Board/dp/B07VX7MX27)
 * [DFPlayer Mini](https://www.amazon.com/DFPlayer-A-Mini-MP3-Player/dp/B089D5NLW1)
