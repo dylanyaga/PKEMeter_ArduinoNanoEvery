@@ -9,7 +9,7 @@
 #include <DFRobotDFPlayerMini.h>
 // https://docs.arduino.cc/learn/built-in-libraries/software-serial/
 #include <SoftwareSerial.h>
-https://github.com/IPdotSetAF/EZButton
+// https://github.com/IPdotSetAF/EZButton
 #include <EZButton.h>
 
 // Pins - corresponds to Digital Output on Arduino Nano Every board
